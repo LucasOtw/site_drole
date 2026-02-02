@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint Valentin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts-container" id="hearts"></div>
+
+    <div class="card">
+        <div class="card-content">
+            <div class="heart-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+            </div>
+            <h1>Veux-tu être ma <span class="highlight">Saint Valentin</span> ?</h1>
+            <p class="subtitle">Une question très importante...</p>
+
+            <div class="buttons">
+                <button class="btn btn-yes" id="btnYes">Oui</button>
+                <button class="btn btn-no" id="btnNo">Non</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="success-overlay" id="successOverlay">
+        <div class="success-content">
+            <div class="big-heart">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+            </div>
+            <h2>Trop bien !</h2>
+            <p>Merci à toi, je suis content maintenant</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
