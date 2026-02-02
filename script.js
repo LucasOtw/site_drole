@@ -112,6 +112,12 @@ function showSuccess() {
     successOverlay.classList.add('active');
     createConfetti();
 
+    // Afficher la photo après 5 secondes
+    setTimeout(() => {
+        const photo = document.getElementById('surprisePhoto');
+        photo.classList.add('visible');
+    }, 5000);
+
     // Create lots of hearts in celebration
     for (let i = 0; i < 30; i++) {
         setTimeout(() => {
